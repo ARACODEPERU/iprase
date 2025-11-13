@@ -34,13 +34,7 @@ Route::get('/facturador', [WebPageController::class, 'billing'])->name('web_bill
 Route::get('/lms', [WebPageController::class, 'lms'])->name('web_lms');
 Route::get('/contactanos', [WebPageController::class, 'contact'])->name('web_contact');
 
-// Route::get('/', [LandingController::class, 'index'])->name('index_main');
-// Route::get('/facturador', [LandingController::class, 'biller'])->name('biller_main');
-Route::get('/news', [LandingController::class, 'blog'])->name('blog_main');
-Route::get('/terms', [LandingController::class, 'terms'])->name('terms_main');
-Route::get('/computer/store', [LandingController::class, 'computerStore'])->name('index_computer_store');
-Route::get('/prices/academic', [LandingController::class, 'academicPrices'])->name('academic_prices');
-Route::get('/curso-descripcion/{id}', [WebPageController::class, 'cursodescripcion'])->name('web_curso_descripcion');
+
 
 //////mensajes de whatsapp///////
 Route::get('/ask/product/{id}', [LandingController::class, 'redirectToWhatsApp'])->name('whatsapp_send');
