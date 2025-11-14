@@ -24,17 +24,17 @@
     <!-- Libs CSS
     ============================================ -->
     <link rel="stylesheet" href="{{ asset('themes/webpage/css/bootstrap/css/bootstrap.min.css') }}">
-    <link href="themes/webpage/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link href="themes/webpage/js/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/lib.css" rel="stylesheet">
-    <link href="themes/webpage/js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
-    <link href="themes/webpage/js/minicolors/miniColors.css" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/lib.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/js/jquery-ui/jquery-ui.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/js/minicolors/miniColors.css') }}" rel="stylesheet">
 
     <!-- Theme CSS
     ============================================ -->
-    <link href="themes/webpage/css/themecss/so_searchpro.css" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/so_megamenu.css" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so_searchpro.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so_megamenu.css') }}" rel="stylesheet">
     <link href="themes/webpage/css/themecss/so-categories.css" rel="stylesheet">
     <link href="themes/webpage/css/themecss/so-listing-tabs.css" rel="stylesheet">
     <link href="themes/webpage/css/themecss/so-category-slider.css" rel="stylesheet">
@@ -68,27 +68,27 @@
     <script type="text/javascript" src="{{ asset('themes/webpage/js/jquery-2.2.4.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('themes/webpage/js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('themes/webpage/js/owl-carousel/owl.carousel.js') }}"></script>
-    <script type="text/javascript" src="themes/webpage/js/slick-slider/slick.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/themejs/libs.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/unveil/jquery.unveil.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/countdown/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/datetimepicker/moment.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/jquery-ui/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/modernizr/modernizr-2.6.2.min.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/minicolors/jquery.miniColors.min.js"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/slick-slider/slick.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/libs.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/unveil/jquery.unveil.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/countdown/jquery.countdown.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/datetimepicker/moment.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/modernizr/modernizr-2.6.2.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/minicolors/jquery.miniColors.min.js') }}"></script>
 
     <!-- Theme files
 ============================================ -->
 
-    <script type="text/javascript" src="themes/webpage/js/themejs/application.js"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/application.js') }}"></script>
 
-    <script type="text/javascript" src="themes/webpage/js/themejs/homepage.js"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/homepage.js') }}"></script>
 
-    <script type="text/javascript" src="themes/webpage/js/themejs/toppanel.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/themejs/so_megamenu.js"></script>
-    <script type="text/javascript" src="themes/webpage/js/themejs/addtocart.js"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/toppanel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/so_megamenu.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/addtocart.js') }}"></script>
 
 
 
