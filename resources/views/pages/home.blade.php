@@ -763,39 +763,13 @@
                             </div>
                         </div>
 
+                        <x-home-banner-two />
 
-                        <div class="module">
-                            <div class="banners banners5">
-                                <div class="banner">
-                                    <a href="#"><img src="{{ asset('themes/webpage/image/catalog/banners/banner2.jpg') }}" alt="image"></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                     {{-- Columna Derecha --}}
                     <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12 main-right">
-
-
-                        <div class="static-cates">
-                            <ul>
-                                <li>
-                                    <a href="#"><img src="image/catalog/banners/cat1.jpg" alt="image"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="image/catalog/banners/cat2.jpg" alt="image"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="image/catalog/banners/cat3.jpg" alt="image"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="image/catalog/banners/cat4.jpg" alt="image"></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="image/catalog/banners/cat5.jpg" alt="image"></a>
-                                </li>
-                            </ul>
-                        </div>
+                        <x-home-promo-categories />
 
                         <!-- Deals -->
                         <div class="module deals-layout1">

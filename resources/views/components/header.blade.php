@@ -358,7 +358,7 @@
                                                         <li class="item-vertical">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                <img src="image/catalog/menu/icons/ico1.png" alt="icon">
+                                                                <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico1.png') }}" alt="icon">
                                                                 <span>Fashion & Accessories</span>
                                                                 
                                                             </a>
@@ -367,7 +367,7 @@
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 <span class="label"></span>
-                                                                <img src="image/catalog/menu/icons/ico9.png" alt="icon">
+                                                                <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico9.png') }}" alt="icon">
                                                                 <span>Electronic</span>
                                                                  
                                                                 <b class="fa-angle-right"></b>
@@ -425,7 +425,7 @@
                                                         <li class="item-vertical with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico7.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico7.png') }}" alt="icon">
                                                                 <span>Health &amp; Beauty</span>
                                                                 <b class="fa-angle-right"></b>
                                                             </a>
@@ -556,7 +556,7 @@
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 
-                                                                 <img src="image/catalog/menu/icons/ico6.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico6.png') }}" alt="icon">
                                                                 <span>Smartphone &amp; Tablets</span>
                                                                 <b class="fa-angle-right"></b>
                                                             </a>
@@ -595,7 +595,7 @@
                                                         <li class="item-vertical">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico5.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico5.png') }}" alt="icon">
                                                                 <span>Health & Beauty</span>
                                                                 
                                                             </a>
@@ -603,21 +603,21 @@
                                                         <li class="item-vertical">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico4.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico4.png') }}" alt="icon">
                                                                 <span>Bathroom</span>
                                                             </a>
                                                         </li>
                                                         <li class="item-vertical">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico3.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico3.png') }}" alt="icon">
                                                                 <span>Metallurgy</span>
                                                             </a>
                                                         </li>
                                                         <li class="item-vertical" >
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                <img src="image/catalog/menu/icons/ico2.png" alt="icon">
+                                                                <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico2.png') }}" alt="icon">
                                                                 <span>Bedroom</span>
                                                             </a>
                                                         </li>
@@ -639,21 +639,21 @@
                                                         <li class="item-vertical" style="display: none;">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico12.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico12.png') }}" alt="icon">
                                                                 <span>Jewelry &amp; Watches</span>
                                                             </a>
                                                         </li>
                                                         <li class="item-vertical" style="display: none;">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico9.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpage/image/catalog/menu/icons/ico9.png') }}" alt="icon">
                                                                 <span>Home &amp; Lights</span>
                                                             </a>
                                                         </li>
                                                         <li class="item-vertical" style="display: none;">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                 <img src="image/catalog/menu/icons/ico6.png" alt="icon">
+                                                                 <img src="{{ asset('themes/webpag/image/catalog/menu/icons/ico6.png') }}" alt="icon">
                                                                 <span>Metallurgy</span>
                                                             </a>
                                                         </li>
@@ -855,7 +855,7 @@
                                                         <p class="close-menu"></p>
                                                         <a href="#" class="clearfix">
                                                             <strong>Categories</strong>
-                                                            <img class="label-hot" src="image/catalog/menu/hot-icon.png" alt="icon items">
+                                                            <img class="label-hot" src="{{ asset('themes/webpage/image/catalog/menu/hot-icon.png') }}" alt="icon items">
                                                   
                                                             <b class="caret"></b>
                                                         </a>
