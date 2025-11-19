@@ -35,15 +35,15 @@
     ============================================ -->
     <link href="{{ asset('themes/webpage/css/themecss/so_searchpro.css') }}" rel="stylesheet">
     <link href="{{ asset('themes/webpage/css/themecss/so_megamenu.css') }}" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/so-categories.css" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/so-listing-tabs.css" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/so-category-slider.css" rel="stylesheet">
-    <link href="themes/webpage/css/themecss/so-newletter-popup.css" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so-categories.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so-listing-tabs.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so-category-slider.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/themecss/so-newletter-popup.css') }}" rel="stylesheet">
 
-    <link href="themes/webpage/css/footer/footer1.css" rel="stylesheet">
-    <link href="themes/webpage/css/header/header1.css" rel="stylesheet">
-    <link id="color_scheme" href="themes/webpage/css/theme.css" rel="stylesheet">
-    <link href="themes/webpage/css/responsive.css" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/footer/footer1.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/header/header1.css') }}" rel="stylesheet">
+    <link id="color_scheme" href="{{ asset('themes/webpage/css/theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/webpage/css/responsive.css') }}" rel="stylesheet">
 
     <!-- Google web fonts
     ============================================ -->

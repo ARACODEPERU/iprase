@@ -70,6 +70,11 @@ class WebPageController extends Controller
         return view('pages.contact');
     }
 
+    public function prodescription()
+    {
+        return view('pages.product-description');
+    }
+
     public function nosotros()
     {
 

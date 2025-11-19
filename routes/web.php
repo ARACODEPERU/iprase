@@ -34,7 +34,8 @@ Route::get('/facturador', [WebPageController::class, 'billing'])->name('web_bill
 Route::get('/lms', [WebPageController::class, 'lms'])->name('web_lms');
 Route::get('/contactanos', [WebPageController::class, 'contact'])->name('web_contact');
 
-
+// Tienda en Linea
+Route::get('/producto-descripcion', [WebPageController::class, 'prodescription'])->name('web_pro_description');
 
 //////mensajes de whatsapp///////
 Route::get('/ask/product/{id}', [LandingController::class, 'redirectToWhatsApp'])->name('whatsapp_send');
