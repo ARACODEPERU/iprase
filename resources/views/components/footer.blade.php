@@ -7,7 +7,7 @@
             <div class="row footer-top">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="socials-w">
-                        <h2>Follow socials</h2>
+                        <h2>Siguenos en:</h2>
                         <ul class="socials">
                             <li class="facebook"><a href="https://www.facebook.com/MagenTech" target="_blank"><i
                                         class="fa fa-facebook"></i><span>Facebook</span></a></li>
@@ -37,7 +37,7 @@
 
                             <div class="title-block">
                                 <div class="page-heading font-title">
-                                    Signup for Newsletter
+                                    Suscríbete al boletín
                                 </div>
 
                             </div>
@@ -47,13 +47,13 @@
                                     class="form-group form-inline signup send-mail">
                                     <div class="form-group">
                                         <div class="input-box">
-                                            <input type="email" placeholder="Your email address..." value=""
+                                            <input type="email" placeholder="Tu Correo Electrónico..." value=""
                                                 class="form-control" id="txtemail" name="txtemail" size="55">
                                         </div>
                                         <div class="subcribe">
                                             <button class="btn btn-primary btn-default font-title" type="submit"
                                                 onclick="return subscribe_newsletter();" name="submit">
-                                                Subscribe
+                                                Suscribir
                                             </button>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 col-infos">
                         <div class="infos-footer">
-                            <a href="#"><img src="image/catalog/logo-footer.png" alt="image"></a>
+                            <a href="#"><img src="{{ asset('themes/webpage/image/catalog/logo-footer.png') }}" alt="image"></a>
                             <ul class="menu">
                                 <li class="adres">
                                     San Luis potosí, centro historico, 78000 san luis potosí, SPL, Mexico
@@ -183,9 +183,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
@@ -193,7 +190,7 @@
             <div class="row">
                 <div class="footer-b">
                     <div class="bottom-cont">
-                        <a href="#"><img src="image/catalog/demo/payment/pay1.jpg" alt="image"></a>
+                        <a href="#"><img src="{{ asset('themes/webpage/image/catalog/demo/payment/pay1.jpg') }}" alt="image"></a>
                         <ul class="footer-links">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Customer Service</a></li>
@@ -214,14 +211,14 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="col-lg-12 col-xs-12 payment-w">
-                    <img src="image/catalog/demo/payment/payment.png" alt="imgpayment">
+                    <img src="{{ asset('themes/webpage/image/catalog/demo/payment/payment.png') }}" alt="imgpayment">
                 </div>
             </div>
             <div class="copyright-w">
                 <div class="container">
                     <div class="copyright">
-                        SuperMarket © 2018 Demo Store. All Rights Reserved. Designed by <a
-                            href="http://www.opencartworks.com/" target="_blank">OpenCartWorks.Com</a>
+                        iPrase © 2025 Demo Store. All Rights Reserved. Designed by <a
+                            href="https://www.aracodeperu.com/" target="_blank">Aracode Smart Solutions</a>
                     </div>
                 </div>
             </div>

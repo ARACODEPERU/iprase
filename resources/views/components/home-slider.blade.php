@@ -132,7 +132,7 @@
                                             <div class="item-image">
                                                 <div class="item-img-info">
                                                     <a href="product.html" target="_self" title="Sausage cowbee ">
-                                                        <img src="image/catalog/demo/product/80/3.jpg"
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/3.jpg') }}"
                                                             alt="Sausage cowbee">
                                                     </a>
                                                 </div>
@@ -170,44 +170,36 @@
                                         <div class="product-layout item-inner style1 ">
                                             <div class="item-image">
                                                 <div class="item-img-info">
-                                                    <a href="#" target="_self" title="Chicken swinesha ">
-                                                        <img src="image/catalog/demo/product/80/4.jpg"
-                                                            alt="Chicken swinesha">
+                                                    <a href="product.html" target="_self" title="Sausage cowbee ">
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/3.jpg') }}"
+                                                            alt="Sausage cowbee">
                                                     </a>
                                                 </div>
 
                                             </div>
                                             <div class="item-info">
                                                 <div class="item-title">
-                                                    <a href="#" target="_self" title="Chicken swinesha">
-                                                        Chicken swinesha
+                                                    <a href="product.html" target="_self" title="Sausage cowbee">
+                                                        Sausage cowbee
                                                     </a>
                                                 </div>
                                                 <div class="rating">
-                                                    <span class="fa fa-stack">
-                                                        <i class="fa fa-star fa-stack-2x"></i>
-                                                    </span>
-                                                    <span class="fa fa-stack">
-                                                        <i class="fa fa-star fa-stack-2x"></i>
-                                                    </span>
-                                                    <span class="fa fa-stack">
-                                                        <i class="fa fa-star fa-stack-2x"></i>
-                                                    </span>
-                                                    <span class="fa fa-stack">
-                                                        <i class="fa fa-star fa-stack-2x"></i>
-                                                    </span>
-                                                    <span class="fa fa-stack">
-                                                        <i class="fa fa-star fa-stack-2x"></i>
-                                                    </span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star-o fa-stack-2x"></i></span>
                                                 </div>
+
                                                 <div class="content_price price">
-                                                    <span class="price-new product-price">$45.00
-                                                    </span>&nbsp;&nbsp;
-
-                                                    <span class="price-old">$56.00 </span>&nbsp;
-
-
-
+                                                    <span class="price product-price">
+                                                        $66.00
+                                                    </span>
                                                 </div>
                                             </div>
                                             <!-- End item-info -->
@@ -220,7 +212,7 @@
                                             <div class="item-image">
                                                 <div class="item-img-info">
                                                     <a href="#" target="_self" title="Qeserunt shortloin ">
-                                                        <img src="image/catalog/demo/product/80/5.jpg"
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/5.jpg') }}"
                                                             alt="Qeserunt shortloin">
                                                     </a>
                                                 </div>
@@ -263,7 +255,7 @@
                                             <div class="item-image">
                                                 <div class="item-img-info">
                                                     <a href="#" target="_self" title="Consecte quichuck ">
-                                                        <img src="image/catalog/demo/product/80/6.jpg"
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/6.jpg') }}"
                                                             alt="Consecte quichuck">
                                                     </a>
                                                 </div>
@@ -309,17 +301,17 @@
                                         <div class="product-layout item-inner style1 ">
                                             <div class="item-image">
                                                 <div class="item-img-info">
-                                                    <a href="#" target="_self" title="Neatball bresaola ">
-                                                        <img src="image/catalog/demo/product/80/7.jpg"
-                                                            alt="Neatball bresaola">
+                                                    <a href="#" target="_self" title="Qeserunt shortloin ">
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/5.jpg') }}"
+                                                            alt="Qeserunt shortloin">
                                                     </a>
                                                 </div>
 
                                             </div>
                                             <div class="item-info">
                                                 <div class="item-title">
-                                                    <a href="#" target="_self" title="Neatball bresaola">
-                                                        Neatball bresaola
+                                                    <a href="#" target="_self" title="Qeserunt shortloin">
+                                                        Qeserunt shortloin
                                                     </a>
                                                 </div>
                                                 <div class="rating">
@@ -340,13 +332,9 @@
                                                     </span>
                                                 </div>
                                                 <div class="content_price price">
-                                                    <span class="price-new product-price">$65.00
-                                                    </span>&nbsp;&nbsp;
-
-                                                    <span class="price-old">$71.00 </span>&nbsp;
-
-
-
+                                                    <span class="price product-price">
+                                                        $88.00
+                                                    </span>
                                                 </div>
                                             </div>
                                             <!-- End item-info -->
@@ -356,17 +344,17 @@
                                         <div class="product-layout item-inner style1 ">
                                             <div class="item-image">
                                                 <div class="item-img-info">
-                                                    <a href="#" target="_self" title="Yutculpa ullamco ">
-                                                        <img src="image/catalog/demo/product/80/8.jpg"
-                                                            alt="Yutculpa ullamco">
+                                                    <a href="#" target="_self" title="Consecte quichuck ">
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/6.jpg') }}"
+                                                            alt="Consecte quichuck">
                                                     </a>
                                                 </div>
 
                                             </div>
                                             <div class="item-info">
                                                 <div class="item-title">
-                                                    <a href="#" target="_self" title="Yutculpa ullamco">
-                                                        Yutculpa ullamco
+                                                    <a href="#" target="_self" title="Consecte quichuck">
+                                                        Consecte quichuck
                                                     </a>
                                                 </div>
                                                 <div class="rating">
@@ -387,10 +375,10 @@
                                                     </span>
                                                 </div>
                                                 <div class="content_price price">
-                                                    <span class="price-new product-price">$60.00
+                                                    <span class="price-new product-price">$55.00
                                                     </span>&nbsp;&nbsp;
 
-                                                    <span class="price-old">$77.00 </span>&nbsp;
+                                                    <span class="price-old">$61.00 </span>&nbsp;
 
 
 

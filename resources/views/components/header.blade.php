@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="header-top-left col-lg-7 col-md-8 col-sm-6 col-xs-4">
                         <div class="hidden-md hidden-sm hidden-xs welcome-msg">
-                            Welcome to SuperMarket! Wrap new offers / gift every single day on Weekends - New Coupon code: <span>Happy2018</span> 
+                            ¡Bienvenido a SuperMarket! Nuevas ofertas y regalos todos los fines de semana. Nuevo código de cupón: <span>Happy2026</span>
                         </div>
                         <ul class="top-link list-inline hidden-lg ">
                             <li class="account" id="my_account">
@@ -29,13 +29,14 @@
                                 <div class="btn-group currencies-block">
                                     <form action="" method="post" enctype="multipart/form-data" id="currency">
                                         <a class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-                                            <span class="icon icon-credit "></span> $ US Dollar  <span class="fa fa-angle-down"></span>
+                                            <span class="icon icon-credit "></span> S/ Sol Peruano  
+                                            {{-- <span class="fa fa-angle-down"></span> --}}
                                         </a>
-                                        <ul class="dropdown-menu btn-xs">
+                                        {{-- <ul class="dropdown-menu btn-xs">
                                             <li> <a href="#">(€)&nbsp;Euro</a></li>
                                             <li> <a href="#">(£)&nbsp;Pounds    </a></li>
                                             <li> <a href="#">($)&nbsp;US Dollar </a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </form>
                                 </div>
                             </li>   
@@ -43,11 +44,11 @@
                                 <div class="btn-group languages-block ">
                                     <form action="" method="post" enctype="multipart/form-data" id="bt-language">
                                         <a class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-                                            <img src="{{ asset('themes/webpage/image/catalog/flags/gb.png') }}" alt="English" title="English">
-                                            <span class="">English</span>
-                                            <span class="fa fa-angle-down"></span>
+                                            <img style="width: 16px;" src="{{ asset('themes/webpage/image/catalog/flags/peru.png') }}" alt="Español" title="Español">
+                                            <span class="">Perú</span>
+                                            {{-- <span class="fa fa-angle-down"></span> --}}
                                         </a>
-                                        <ul class="dropdown-menu">
+                                        {{-- <ul class="dropdown-menu">
                                             <li>
                                                 <a href="">
                                                     <img class="image_flag" src="image/catalog/flags/gb.png" alt="English" title="English" /> 
@@ -60,7 +61,7 @@
                                                     Arabic 
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> --}}
                                     </form>
                                 </div>
                             </li>
@@ -981,7 +982,10 @@
                         </div>  
                         <div class="signin-w hidden-md hidden-sm hidden-xs">
                             <ul class="signin-link blank">                            
-                                <li class="log login"><i class="fa fa-lock"></i> <a class="link-lg" href="login.html">Login </a> or <a href="register.html">Register</a></li>                                
+                                <li class="log login">
+                                    <i class="fa fa-lock"></i> 
+                                    <a class="link-lg" href="">Login </a> or <a href="">Register</a>
+                                </li>                                
                             </ul>                       
                         </div>                  
                     </div>
