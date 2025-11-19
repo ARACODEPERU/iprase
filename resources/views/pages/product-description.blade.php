@@ -92,7 +92,7 @@
                                         <div class="item-image">
                                             <div class="item-img-info">
                                                 <a href="#" target="_self" title="Mandouille short ">
-                                                    <img src="image/catalog/demo/product/80/1.jpg" alt="Mandouille short">
+                                                    <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/1.jpg') }}" alt="Mandouille short">
                                                     </a>
                                             </div>
                                             
@@ -123,7 +123,7 @@
                                         <div class="item-image">
                                             <div class="item-img-info">
                                                 <a href="#" target="_self" title="Xancetta bresao ">
-                                                        <img src="image/catalog/demo/product/80/2.jpg" alt="Xancetta bresao">
+                                                        <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/2.jpg') }}" alt="Xancetta bresao">
                                                         </a>
                                             </div>
                                             
@@ -158,7 +158,7 @@
                                         <div class="item-image">
                                             <div class="item-img-info">
                                                 <a href="#" target="_self" title="Sausage cowbee ">
-                                                            <img src="image/catalog/demo/product/80/3.jpg" alt="Sausage cowbee">
+                                                            <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/3.jpg') }}" alt="Sausage cowbee">
                                                             </a>
                                             </div>
                                            
@@ -191,7 +191,7 @@
                                         <div class="item-image">
                                             <div class="item-img-info">
                                                 <a href="#" target="_self" title="Chicken swinesha ">
-                                                                <img src="image/catalog/demo/product/80/4.jpg" alt="Chicken swinesha">
+                                                                <img src="{{ asset('themes/webpage/image/catalog/demo/product/80/4.jpg') }}" alt="Chicken swinesha">
                                                                 </a>
                                             </div>
                                            
@@ -242,7 +242,7 @@
                 	<div class="banner-sidebar banners">
                       <div>
                         <a title="Banner Image" href="#"> 
-                          <img src="image/catalog/banners/banner-sidebar.jpg" alt="Banner Image"> 
+                          <img src="{{ asset('themes/webpage/image/catalog/banners/banner-sidebar.jpg') }}" alt="Banner Image"> 
                         </a>
                       </div>
                     </div>
@@ -258,19 +258,19 @@
 				
 						<div class="content-product-left class-honizol col-md-5 col-sm-12 col-xs-12">
 							<div class="large-image  ">
-								<img itemprop="image" class="product-image-zoom" src="image/catalog/demo/product/fashion/1.jpg"  title="Chicken swinesha" alt="Chicken swinesha">
+								<img itemprop="image" class="product-image-zoom" src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/1.jpg') }}"  title="Chicken swinesha" alt="Chicken swinesha">
 							</div>
 							<a class="thumb-video pull-left" href="https://www.youtube.com/watch?v=HhabgvIIXik"><i class="fa fa-youtube-play"></i></a>
 							
 							<div id="thumb-slider" class="yt-content-slider full_slider owl-drag" data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="10" data-items_column00="4" data-items_column0="4" data-items_column1="3" data-items_column2="4"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes">
-								<a data-index="0" class="img thumbnail " data-image="image/catalog/demo/product/fashion/1.jpg" title="Chicken swinesha">
-									<img src="image/catalog/demo/product/fashion/1.jpg" title="Chicken swinesha" alt="Chicken swinesha">
+								<a data-index="0" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/1.jpg') }}" title="Chicken swinesha">
+									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/1.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
-								<a data-index="1" class="img thumbnail " data-image="image/catalog/demo/product/fashion/2.jpg" title="Chicken swinesha">
-									<img src="image/catalog/demo/product/fashion/2.jpg" title="Chicken swinesha" alt="Chicken swinesha">
+								<a data-index="1" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/2.jpg') }}" title="Chicken swinesha">
+									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/2.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
-								<a data-index="2" class="img thumbnail " data-image="image/catalog/demo/product/fashion/3.jpg" title="Chicken swinesha">
-									<img src="image/catalog/demo/product/fashion/3.jpg" title="Chicken swinesha" alt="Chicken swinesha">
+								<a data-index="2" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/3.jpg') }}" title="Chicken swinesha">
+									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/3.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
 								<a data-index="3" class="img thumbnail " data-image="image/catalog/demo/product/fashion/4.jpg" title="Chicken swinesha">
 									<img src="image/catalog/demo/product/fashion/4.jpg" title="Chicken swinesha" alt="Chicken swinesha">
