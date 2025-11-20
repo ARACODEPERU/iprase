@@ -14,6 +14,7 @@ use Modules\Academic\Entities\AcaCourse;
 use Modules\Academic\Entities\AcaCategoryCourse;
 use Modules\Onlineshop\Entities\OnliSale;
 use Modules\Onlineshop\Entities\OnliSaleDetail;
+use Modules\Sales\Entities\SaleProductCategory;
 use MercadoPago\MercadoPagoConfig;
 use MercadoPago\Client\Preference\PreferenceClient;
 use MercadoPago\Client\Payment\PaymentClient;
@@ -70,9 +71,16 @@ class WebPageController extends Controller
         return view('pages.contact');
     }
 
-    public function prodescription()
+    public function prodescription($id)
     {
-        return view('pages.product-description');
+        $categories = SaleProductCategory::whereNull('category_id')->get();
+        $subcategories = [];
+        foreach ($categories as $key => $category) {
+            $subcategories[$key] = SaleProductCategory::where('category_id', $category->id)->select('id', 'description')->get()->toArray();
+        }
+        $product = OnliItem::find($id);
+        return view('pages.product-description', compact('categories', 'subcategories', 'product'));
+        // return view('pages.product-description');
     }
 
     public function nosotros()

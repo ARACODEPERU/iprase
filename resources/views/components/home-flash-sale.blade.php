@@ -45,10 +45,12 @@
                                     </div>
                                     <div class="right-block">
                                         <div class="button-group so-quickview cartinfo--left">
-                                            <button type="button" class="addToCart" title="Ver Producto"
-                                                onclick="cart.add('60 ');">
-                                                <span>Ver Producto</span>
-                                            </button>
+                                            <a href="{{ route('web_pro_description', $product->id) }}">
+                                                <button type="button" class="addToCart" title="Ver Producto"
+                                                    onclick="cart.add('60 ');">
+                                                    <span>Ver Producto</span>
+                                                </button>
+                                            </a>
                                         </div>
                                         <div class="caption hide-cont">
                                             <div class="ratings">
