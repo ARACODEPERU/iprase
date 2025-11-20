@@ -272,11 +272,11 @@
 								<a data-index="2" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/3.jpg') }}" title="Chicken swinesha">
 									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/3.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
-								<a data-index="3" class="img thumbnail " data-image="image/catalog/demo/product/fashion/4.jpg" title="Chicken swinesha">
-									<img src="image/catalog/demo/product/fashion/4.jpg" title="Chicken swinesha" alt="Chicken swinesha">
+								<a data-index="3" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/4.jpg') }}" title="Chicken swinesha">
+									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/4.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
-								<a data-index="4" class="img thumbnail " data-image="image/catalog/demo/product/fashion/5.jpg" title="Chicken swinesha">
-									<img src="image/catalog/demo/product/fashion/5.jpg" title="Chicken swinesha" alt="Chicken swinesha">
+								<a data-index="4" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/5.jpg') }}" title="Chicken swinesha">
+									<img src="{{ asset('themes/webpage/image/catalog/demo/product/fashion/5.jpg') }}" title="Chicken swinesha" alt="Chicken swinesha">
 								</a>
 							</div>
 							
@@ -329,7 +329,7 @@
 										<li class="radio">
 											<label>
 												<input class="image_radio" type="radio" name="option[231]" value="33"> 
-												<img src="image/demo/colors/blue.jpg" data-original-title="blue +$12.00" class="img-thumbnail icon icon-color">				<i class="fa fa-check"></i>
+												<img src="{{ asset('themes/webpage/image/demo/colors/blue.jpg') }}" data-original-title="blue +$12.00" class="img-thumbnail icon icon-color">				<i class="fa fa-check"></i>
 												<label> </label>
 											</label>
 										</li>
