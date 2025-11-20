@@ -267,8 +267,8 @@
 									<img src="{{ asset($product->image) }}" title="{{ $product->name }}" alt="{{ $product->name }}">
 								</a>
                                 @foreach ($product->images as $image)
-                                <a data-index="1" class="img thumbnail " data-image="{{ asset($product->image) }}" title="{{ $product->name }}">
-									<img src="{{ asset($product->image) }}" title="{{ $product->name }}" alt="{{ $product->name }}">
+                                <a data-index="1" class="img thumbnail " data-image="{{ asset('storage/' . $image->image_path) }}" title="{{ $product->name }}">
+									<img src="{{ asset('storage/' . $image->image_path) }}" title="{{ $product->name }}" alt="{{ $product->name }}">
 								</a>
                                 @endforeach
 								{{-- <a data-index="2" class="img thumbnail " data-image="{{ asset('themes/webpage/image/catalog/demo/product/fashion/3.jpg') }}" title="Chicken swinesha">
