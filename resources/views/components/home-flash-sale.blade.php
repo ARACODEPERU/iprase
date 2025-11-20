@@ -24,7 +24,77 @@
                     data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="yes"
                     data-hoverpause="yes">
 
-                    <div class="item">
+
+                    @foreach ($products_recommended as $product)
+                        <div class="item">
+                            <div class="item-inner product-layout transition product-grid">
+                                <div class="product-item-container">
+                                    <div class="left-block left-b">
+                                        {{-- <div class="box-label">
+                                            <span class="label-product label-sale">-11%</span>
+                                        </div> --}}
+                                        <div class="product-image-container second_img">
+                                            <a href="{{ route('web_pro_description', $product->id) }}" target="_self"
+                                                title="Pastrami bacon">
+                                                <img src="{{ $product->image }}"
+                                                    class="img-1 img-responsive" alt="{{ $product->name }}">
+                                                <img src="{{ asset('themes/webpage/image/catalog/demo/product/270/h2.jpg') }}"
+                                                    class="img-2 img-responsive" alt="{{ $product->name }}">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="right-block">
+                                        <div class="button-group so-quickview cartinfo--left">
+                                            <button type="button" class="addToCart" title="Ver Producto"
+                                                onclick="cart.add('60 ');">
+                                                <span>Ver Producto</span>
+                                            </button>
+                                        </div>
+                                        <div class="caption hide-cont">
+                                            <div class="ratings">
+                                                <div class="rating-box"> <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                    <span class="fa fa-stack"><i
+                                                            class="fa fa-star fa-stack-2x"></i></span>
+                                                </div>
+                                                <span class="rating-num">( 2 )</span>
+                                            </div>
+                                            <h4>
+                                                <a href="{{ route('web_pro_description', $product->id) }}"
+                                                    title="Pastrami bacon" target="_self">
+                                                    {{ $product->name }}
+                                                </a>
+                                            </h4>
+
+                                        </div>
+                                        @if ($product->discount > 0)
+                                            @php
+                                                $new_price = $product->price - $product->discount;
+                                            @endphp
+                                            <p class="price">
+                                                <span class="price-new">S/ {{ number_format($new_price, 2) }}</span>
+                                                <span class="price-old">S/
+                                                    {{ number_format($product->price, 2) }}</span>
+                                            </p>
+                                        @else
+                                            <p class="price">
+                                                <span class="price-new">S/
+                                                    {{ number_format($product->price, 2) }}</span>
+                                            </p>
+                                        @endif
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+
+                    {{-- <div class="item">
                         <div class="item-inner product-layout transition product-grid">
                             <div class="product-item-container">
                                 <div class="left-block left-b">
@@ -72,7 +142,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
