@@ -265,7 +265,7 @@
 							<div id="thumb-slider" class="yt-content-slider full_slider owl-drag" data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="10" data-items_column00="4" data-items_column0="4" data-items_column1="3" data-items_column2="4"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes">
 								
                                 @foreach ($product->images as $image)
-                                <a data-index="0" class="img thumbnail " data-image="{{ asset($product->image) }}" title="{{ $product->name }}">
+                                <a class="img thumbnail " data-image="{{ asset($product->image) }}" title="{{ $product->name }}">
 									<img src="{{ asset($product->image) }}" title="{{ $product->name }}" alt="{{ $product->name }}">
 								</a>
                                 @endforeach
