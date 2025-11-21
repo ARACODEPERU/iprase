@@ -81,13 +81,11 @@
                                             @endphp
                                             <p class="price">
                                                 <span class="price-new">S/ {{ number_format($new_price, 2) }}</span>
-                                                <span class="price-old">S/
-                                                    {{ number_format($product->price, 2) }}</span>
+                                                <span class="price-old">S/ {{ number_format($product->price, 2) }}</span>
                                             </p>
                                         @else
                                             <p class="price">
-                                                <span class="price-new">S/
-                                                    {{ number_format($product->price, 2) }}</span>
+                                                <span class="price-new">S/ {{ number_format($product->price, 2) }}</span>
                                             </p>
                                         @endif
                                     </div>
