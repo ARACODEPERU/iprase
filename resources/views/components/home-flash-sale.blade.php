@@ -53,7 +53,7 @@
                                             </a>
                                         </div>
                                         <div class="caption hide-cont">
-                                            <div class="ratings">
+                                            {{-- <div class="ratings">
                                                 <div class="rating-box"> <span class="fa fa-stack"><i
                                                             class="fa fa-star fa-stack-2x"></i></span>
                                                     <span class="fa fa-stack"><i
@@ -66,7 +66,7 @@
                                                             class="fa fa-star fa-stack-2x"></i></span>
                                                 </div>
                                                 <span class="rating-num">( 2 )</span>
-                                            </div>
+                                            </div> --}}
                                             <h4>
                                                 <a href="{{ route('web_pro_description', $product->id) }}"
                                                     title="Pastrami bacon" target="_self">
