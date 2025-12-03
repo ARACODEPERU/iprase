@@ -247,8 +247,7 @@
                     <div class="bottom1 menu-vertical col-lg-2 col-md-3 col-sm-3">
                         <div class="responsive so-megamenu megamenu-style-dev ">
                             <div class="so-vertical-menu ">
-                                <nav class="navbar-default">    
-                                    
+                                <nav class="navbar-default">
                                     <div class="container-megamenu vertical">
                                         <div id="menuHeading">
                                             <div class="megamenuToogle-wrapper">
@@ -259,7 +258,7 @@
                                                             <span></span>
                                                             <span></span>
                                                         </div>
-                                                        Categorías                          
+                                                        Categorías             
                                                     </div>
                                                 </div>
                                             </div>
@@ -674,7 +673,7 @@
                         </div>
 
                     </div>
-                    
+
                     <!-- Main menu -->
                     <div class="main-menu-w col-lg-10 col-md-9">
                         <div class="responsive so-megamenu megamenu-style-dev">

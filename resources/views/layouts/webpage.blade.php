@@ -20,7 +20,6 @@
     ============================================ -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('themes/webpage/ico/favicon-16x16.png') }}" />
 
-
     <!-- Libs CSS
     ============================================ -->
     <link rel="stylesheet" href="{{ asset('themes/webpage/css/bootstrap/css/bootstrap.min.css') }}">
@@ -56,7 +55,7 @@
 
 </head>
 
-<body class="common-home res layout-1">
+<body class="res layout-subpage layout-1 banners-effect-5">
 
     @yield('content')
 
@@ -82,13 +81,15 @@
     <!-- Theme files
 ============================================ -->
 
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/application.js') }}"></script>
+
 
     <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/homepage.js') }}"></script>
-
+	<script type="text/javascript" src="{{ asset('themes/webpage/js/lightslider/lightslider.js') }}"></script>
+    
     <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/toppanel.js') }}"></script>
     <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/so_megamenu.js') }}"></script>
     <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/addtocart.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/application.js') }}"></script>
 
 
 
