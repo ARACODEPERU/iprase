@@ -38,7 +38,7 @@
                                                 title="Pastrami bacon">
                                                 <img src="{{ $product->image }}"
                                                     class="img-1 img-responsive" alt="{{ $product->name }}">
-                                                <img src="{{ $product->image_path }}"
+                                                <img src="{{ $product->image }}"
                                                     class="img-2 img-responsive" alt="{{ $product->name }}">
                                             </a>
                                         </div>
