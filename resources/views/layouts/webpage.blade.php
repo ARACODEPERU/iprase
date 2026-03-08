@@ -1,97 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda en Línea</title>
 
-    <!-- Basic page needs
-    ============================================ -->
-    <title>iPrase</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="Magentech">
-    <meta name="robots" content="index, follow" />
+    <!-- Tailwind CSS (CDN para no usar Vite) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Mobile specific metas
-    ============================================ -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Favicon
-    ============================================ -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('themes/webpage/ico/favicon-16x16.png') }}" />
-
-    <!-- Libs CSS
-    ============================================ -->
-    <link rel="stylesheet" href="{{ asset('themes/webpage/css/bootstrap/css/bootstrap.min.css') }}">
-    <link href="{{ asset('themes/webpage/css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/lib.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/js/jquery-ui/jquery-ui.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/js/minicolors/miniColors.css') }}" rel="stylesheet">
-
-    <!-- Theme CSS
-    ============================================ -->
-    <link href="{{ asset('themes/webpage/css/themecss/so_searchpro.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/so_megamenu.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/so-categories.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/so-listing-tabs.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/so-category-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/themecss/so-newletter-popup.css') }}" rel="stylesheet">
-
-    <link href="{{ asset('themes/webpage/css/footer/footer1.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/header/header1.css') }}" rel="stylesheet">
-    <link id="color_scheme" href="{{ asset('themes/webpage/css/theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('themes/webpage/css/responsive.css') }}" rel="stylesheet">
-
-    <!-- Google web fonts
-    ============================================ -->
-    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-        body {
-            font-family: 'Poppins', sans-serif;
+    <!-- Configuración de Tailwind para usar tus colores personalizados -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',   // Azul principal
+                        secondary: '#1e40af', // Azul oscuro
+                        accent: '#facc15',    // Amarillo ofertas
+                    }
+                }
+            }
         }
-    </style>
+    </script>
 
+    <!-- Script para inicializar el modo oscuro/claro -->
+    <script>
+        // Este script se ejecuta de inmediato en el <head> para evitar el "destello" (FOUC).
+        // Si la preferencia 'dark' está guardada en localStorage, aplica la clase 'dark' al <html>.
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            // De lo contrario (si es 'light' o no hay nada guardado), nos aseguramos de que la clase 'dark' no esté.
+            // Esto establece el MODO CLARO como predeterminado en la primera visita.
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
 </head>
 
-<body class="res layout-subpage layout-1 banners-effect-5">
-
+<body class="bg-gray-50 font-sans text-gray-800 flex flex-col min-h-screen">
     @yield('content')
-
-
-
-    <!-- Include Libs & Plugins
-============================================ -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/jquery-2.2.4.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/owl-carousel/owl.carousel.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/slick-slider/slick.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/libs.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/unveil/jquery.unveil.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/countdown/jquery.countdown.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/datetimepicker/moment.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/datetimepicker/bootstrap-datetimepicker.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/jquery-ui/jquery-ui.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/modernizr/modernizr-2.6.2.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/minicolors/jquery.miniColors.min.js') }}"></script>
-
-    <!-- Theme files
-============================================ -->
-
-
-
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/homepage.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('themes/webpage/js/lightslider/lightslider.js') }}"></script>
-    
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/toppanel.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/so_megamenu.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/addtocart.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('themes/webpage/js/themejs/application.js') }}"></script>
-
-
 
 
 </body>
