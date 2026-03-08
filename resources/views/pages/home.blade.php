@@ -22,6 +22,9 @@
         <!-- Section: Lo Último de Apple (Diseño Alternativo Moderno) -->
         <x-home-apple-latest />
 
+        <!-- Section: Aromas que Enamoran (Diseño Alternativo Moderno) -->
+        <x-home-perfumes />
+
     </main>
 
     <!-- ================= FOOTER ================= -->
