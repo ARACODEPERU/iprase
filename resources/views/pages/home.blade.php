@@ -16,6 +16,12 @@
         <!-- Section: Nuestros Destacados -->
         <x-home-products-featured />
 
+        <!-- Section: Ofertas que Vuelan -->
+        <x-home-offers />
+
+        <!-- Section: Lo Último de Apple (Diseño Alternativo Moderno) -->
+        <x-home-apple-latest />
+
     </main>
 
     <!-- ================= FOOTER ================= -->
