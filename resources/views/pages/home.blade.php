@@ -24,6 +24,9 @@
 
         <!-- Section: Aromas que Enamoran (Diseño Alternativo Moderno) -->
         <x-home-perfumes />
+        
+        <!-- Section: Bloques por Categoría -->
+        <x-home-footwear />
 
     </main>
 
