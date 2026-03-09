@@ -11,6 +11,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Configuración de Tailwind para usar tus colores personalizados -->
     <script>
@@ -40,12 +42,15 @@
             document.documentElement.classList.remove('dark');
         }
     </script>
+    
 </head>
 
 <body class="bg-gray-50 font-sans text-gray-800 flex flex-col min-h-screen">
     @yield('content')
 
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    @stack('scripts')
 </body>
 
 </html>

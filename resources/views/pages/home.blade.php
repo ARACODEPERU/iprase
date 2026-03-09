@@ -28,6 +28,15 @@
         <!-- Section: Bloques por Categoría -->
         <x-home-footwear />
 
+        <!-- Section: Testimonios -->
+        <x-home-testimonies />
+
+        <!-- Section: Propuesta de Valor -->
+        <x-home-proposition-value />
+
+        <!-- Section: Newsletter -->
+        <x-home-news-letter />
+
     </main>
 
     <!-- ================= FOOTER ================= -->
