@@ -29,6 +29,7 @@ use Modules\Sales\Http\Controllers\SalesController;
 // Rutas Webs en Blade
 Route::get('/', [WebPageController::class, 'home'])->name('index_main');
 Route::get('/home', [WebPageController::class, 'home'])->name('index_main');
+Route::get('/catalogo', [WebPageController::class, 'catalog'])->name('web_catalog');
 Route::get('/nosotros', [WebPageController::class, 'about'])->name('web_about');
 Route::get('/facturador', [WebPageController::class, 'billing'])->name('web_billing');
 Route::get('/lms', [WebPageController::class, 'lms'])->name('web_lms');

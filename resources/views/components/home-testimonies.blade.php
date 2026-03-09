@@ -35,59 +35,59 @@
                         $testimonials = [
                             [
                                 'name' => 'Ana García',
-                                'role' => 'Directora de Marketing, TechSolutions',
+                                'role' => 'Fan de Apple',
                                 'avatar' => 'https://randomuser.me/api/portraits/women/44.jpg',
                                 'quote' =>
-                                    'El equipo superó nuestras expectativas. Su profesionalismo y atención al detalle fueron clave para el éxito de nuestro proyecto. ¡Totalmente recomendados!',
+                                    'Compré el último iPhone y la calidad de la cámara es impresionante. El servicio de entrega fue rápido y el producto llegó en perfectas condiciones. ¡Totalmente recomendado!',
                             ],
                             [
                                 'name' => 'Carlos Rodríguez',
-                                'role' => 'CEO, Innovate Co.',
+                                'role' => 'Runner aficionado',
                                 'avatar' => 'https://randomuser.me/api/portraits/men/32.jpg',
                                 'quote' =>
-                                    'Trabajar con ellos ha sido una experiencia transformadora. Entendieron nuestra visión desde el primer día y la ejecutaron a la perfección.',
+                                    'Las zapatillas Nike Air Max que pedí son súper cómodas para correr. El diseño es tal cual se ve en la web y la talla es perfecta. ¡Volveré a comprar!',
                             ],
                             [
                                 'name' => 'Laura Martínez',
-                                'role' => 'Gerente de Producto, AppFactory',
+                                'role' => 'Amante de los perfumes',
                                 'avatar' => 'https://randomuser.me/api/portraits/women/65.jpg',
                                 'quote' =>
-                                    'La calidad del software que desarrollaron para nosotros es excepcional. Robustez, escalabilidad y una interfaz de usuario intuitiva. Excelente trabajo.',
+                                    'Buscaba un perfume original y duradero. Encontré mi fragancia favorita a un precio increíble. El aroma perdura todo el día. ¡Me encanta!',
                             ],
                             [
                                 'name' => 'Javier Fernández',
-                                'role' => 'Emprendedor',
+                                'role' => 'Deportista',
                                 'avatar' => 'https://randomuser.me/api/portraits/men/85.jpg',
                                 'quote' =>
-                                    'Como startup, necesitábamos un socio tecnológico confiable. No solo cumplieron, sino que nos guiaron en cada paso del camino. Un socio invaluable.',
+                                    'La ropa deportiva Puma tiene una calidad excelente. Las zapatillas son ligeras y perfectas para el gimnasio. Muy satisfecho con mi compra.',
                             ],
                             [
                                 'name' => 'Sofía López',
-                                'role' => 'Consultora Independiente',
+                                'role' => 'Diseñadora Gráfica',
                                 'avatar' => 'https://randomuser.me/api/portraits/women/33.jpg',
                                 'quote' =>
-                                    'Su capacidad para resolver problemas complejos de forma creativa es impresionante. Siempre aportan soluciones innovadoras y eficientes.',
+                                    'El iPad Pro ha transformado mi forma de trabajar. Es potente y versátil. La atención al cliente me ayudó a elegir el modelo adecuado. ¡Gracias!',
                             ],
                             [
                                 'name' => 'David Sánchez',
-                                'role' => 'CTO, DataCorp',
+                                'role' => 'Cliente frecuente',
                                 'avatar' => 'https://randomuser.me/api/portraits/men/46.jpg',
                                 'quote' =>
-                                    'La migración de nuestra infraestructura a la nube fue impecable gracias a su experiencia. Cero tiempo de inactividad y un rendimiento mejorado.',
+                                    'Compré un set de perfumes para regalo y la presentación fue exquisita. A mi esposa le encantó. Sin duda, la mejor opción para regalos especiales.',
                             ],
                             [
                                 'name' => 'Elena Gómez',
-                                'role' => 'Diseñadora UX/UI',
+                                'role' => 'Estilo de vida activo',
                                 'avatar' => 'https://randomuser.me/api/portraits/women/12.jpg',
                                 'quote' =>
-                                    'Colaborar con su equipo de desarrollo fue un placer. Tienen un profundo respeto por el diseño y la experiencia de usuario, lo que se refleja en el producto final.',
+                                    'La sudadera Nike es de muy buena calidad, abriga y es muy estilosa. El envío fue muy eficiente. Una experiencia de compra de 10.',
                             ],
                             [
                                 'name' => 'Miguel Torres',
-                                'role' => 'Director de Operaciones, LogiTrack',
+                                'role' => 'Entusiasta de la tecnología',
                                 'avatar' => 'https://randomuser.me/api/portraits/men/22.jpg',
                                 'quote' =>
-                                    'El sistema de gestión que implementaron ha optimizado nuestros procesos en un 40%. Un impacto directo y medible en nuestro negocio.',
+                                    'Me encanta la variedad de productos que ofrecen, desde tecnología Apple hasta moda y perfumes. Siempre encuentro lo que busco de las mejores marcas.',
                             ],
                         ];
                     @endphp

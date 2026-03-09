@@ -51,6 +51,11 @@ class WebPageController extends Controller
         return view('pages.home');
     }
     
+    public function catalog()
+    {
+        return view('pages.catalog');
+    }
+    
     public function about()
     {
         return view('pages.about');
